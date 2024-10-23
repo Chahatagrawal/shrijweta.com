@@ -1,0 +1,37 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(163, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contet{
+    text-align: center; 
+    justify-content: center;
+  
+  }
+  .content h1{
+    font-size: 95px;
+    color: white;
+    margin-bottom:50px;
+  }
+  .content a{
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid floralwhite;
+    padding: 15px 25px;
+    border-radius: 50px;
+  
+  }
+  .content a:hover{
+    background-color:floralwhite;  color: black;
+  }
+  .background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  
+  }

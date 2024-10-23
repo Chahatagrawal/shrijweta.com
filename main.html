@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website </title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="main.js"></script>
+    <style>
+        /* Smooth scrolling effect */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-100" >
+    <header id="home" class="sticky top-0 z-50 bg-white bg-opacity-80 backdrop-blur-md rounded-2xl mx-5 mt-4">
+        <nav class="flex justify-between items-center p-4">
+            <div class="flex items-center">
+                <img src="images/logo1.jpg" alt="Logo" class="w-12 h-12 rounded-full mr-4">
+                <span class="text-2xl font-bold text-gray-800">Shrijweta</span>
+            </div>
+             
+            <ul class="nav-links justify-center md:flex space-x-8 hidden md:flex">
+                <li><a href="#home" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Home</a></li>
+                <li><a href="#services" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Services</a></li>
+                <li><a href="#contact" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Contact</a></li>
+                <li><a href="#about" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">About us</a></li>
+                <li><a href="reviews" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Testimonials</a></li>
+                <li><a href="#articles" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Articles</a></li>
+            </ul>
+        
+            <button class="bg-green-400 text-white px-5 py-2 rounded-full hover:bg-green-500 transition duration-300">
+                <a href="https://forms.gle/k3fBynLmSruX4snZ9" class="Get Started">Get started</a>
+            </button>
+    
+            <!-- Hamburger Menu for Mobile -->
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    
+        <!-- Mobile Menu -->
+        <ul id="mobile-menu" class="nav-links flex flex-col space-y-4 p-4 bg-white bg-opacity-80 rounded-2xl mx-5 mt-4 hidden">
+            <li><a href="#home" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Home</a></li>
+            <li><a href="#services" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Services</a></li>
+            <li><a href="#contact" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Contact</a></li>
+            <li><a href="#about" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">About us</a></li>
+            <li><a href="#articles" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Articles</a></li>
+            <li><a href="#reviews" class="text-lg text-gray-800 hover:text-gray-600 transition duration-300">Testimonials</a></li>
+        </ul>
+    </header>
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <video autoplay muted loop id="background-video">
+            <source src="hf.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="content">
+          
+            <p class="justify-between ">Get Healthy with Us </p>
+            <a href="https://forms.gle/k3fBynLmSruX4snZ9" class="btn">Join Us</a>
+        </div>
+    </div>
+    </div>
+    <div class="max-w-5xl mx-auto p-6">
+  <!-- About Section -->
+  <section id="about" class="text-center my-10">
+    <div class="bg-gray-100 p-8 rounded-lg shadow-md">
+      <h1 class="text-4xl font-bold text-green-700 mb-4">About Dt. Shrijee Agarwal</h1>
+      <p class="font-bold text-lg leading-8 text-gray-700 text-justify">
+        Dt. Shrijee Agarwal is presently working at Saket Hospital, Agra as a senior dietician.
+  
+        She has done Graduation (B.Sc. Home science) and Masters (M.Sc. food and nutrition) with Gold Medals in both degrees from Institute of Home Science, DBRAU, Agra.
+        
+        Thereafter she has completed diploma in Nutrition and health education being offered by IGNOU.
+        
+        She has published many book chapters and research papers to her credit and also given many presentations and lectures on nutrition awareness at different schools and NGOs.
+        
+        She is a young, dynamic and vibrant individual who is working hard to bring a change in people's health and fitness by her good work.
+      </p>
+    </div>
+  </section>
+  
+  <section id="about" class="text-center my-10">
+    <div class="bg-gray-100 p-8 rounded-lg shadow-md">
+      <h1 class="text-4xl font-bold text-green-700 mb-4">About Dt. Shweta Singhal</h1>
+      <p class="font-bold text-lg leading-8 text-gray-700 text-justify">
+        Dt. Shweta Singhal is a dedicated dietitian based in Agra, with a strong commitment to promoting health and wellness through nutrition. 
+  
+        She holds a Master's degree (M.Sc. in Food and Nutrition) and has completed a Certificate in Food and Nutrition from IGNOU, as well as a Postgraduate Diploma in Nutrition and Dietetics from the Institute of Home Science, DBRAU, Agra.
+        
+        She has enriched her practical experience through an internship at Pushpanjali Hospital, Agra, where she developed her skills in dietary planning and patient care.
+        
+        She aims to help individuals achieve their health goals through informed nutritional choices.
+      </p>
+    </div>
+  </section>
+        
+<div class=" appointment-box">
+    <h2>Book Your Appointment</h2>
+    <p>Have questions or need assistance? Contact us directly on WhatsApp!</p>
+    <a href="https://wa.me/919258184796?text=Hello,%20I%20would%20like%20to%20book%20an%20appointment" 
+    target="_blank" class="whatsapp-button">
+   
+    Contact on WhatsApp
+    </a>
+    </div>
+  
+    
+        <!-- Services Offered Section -->
+        <section id="services" class="my-10">
+            <h1 class="text-3xl font-bold text-green-700 mb-6">Services Offered</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-700">
+                <!-- Service 1 -->
+                <div>
+                    <h2 class="text-2xl font-semibold text-green-600">Nutrition for Females</h2>
+                    <p class="mt-2">Empower your health with tailored nutrition plans designed specifically for women...</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div>
+                    <h2 class="text-2xl font-semibold text-green-600">Child Nutrition</h2>
+                    <p class="mt-2">Encourage healthy growth and development with our child nutrition services...</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div>
+                    <h2 class="text-2xl font-semibold text-green-600">Weight Loss</h2>
+                    <p class="mt-2">Achieve your weight loss goals with our evidence-based strategies...</p>
+                </div>
+    
+                <!-- Service 4 -->
+                <div>
+                    <h2 class="text-2xl font-semibold text-green-600">Weight Gain</h2>
+                    <p class="mt-2">Need to gain weight healthily? Our weight gain programs help you...</p>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-green-600">Diabetes Care</h2>
+                    <p class="mt-2">Manage your diabetes effectively with our specialized nutrition services.  provide individualized meal planning and education to help you maintain stable blood sugar levels and improve your quality of life.</p>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-green-600">PCOD/PCOS Nutrition</h2>
+                    <p class="mt-2">Struggling with PCOD or PCOS? Our specialized nutrition plans are designed to help manage symptoms and support hormonal balance,  on dietary choices that aid in weight management and overall health....</p>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-green-600">Gout Management</h2>
+                    <p class="mt-2">Managing gout can be complex, but the right nutrition can make a significant difference. We provide dietary recommendations aimed  reducing inflammation and preventing flare-ups through sustainable lifestyle changes....</p>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-green-600">Kidney Stone Prevention</h2>
+                    <p class="mt-2">Preventing kidney stones is possible with the right dietary choices. We offer personalized nutrition plans that focus on hydration, balanced mineral intake, and foods that help reduce the risk of stone formation....</p>
+                </div>
+            </div>
+        </section>
+     </div>
+    </section>
+
+<section class="bg-gray-100 py-16">
+    <div class="mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-green-700 mb-12">Why Choose Us?</h2>
+        <div class="grid gap-8 md:grid-cols-3">
+            <!-- Personalized Approach -->
+            <div class="p-6 bg-white shadow-md rounded-md text-center">
+                <h3 class="text-2xl font-semibold text-green-600 mb-4">Personalized Approach</h3>
+                <p class="text-gray-600">We understand that every patient is unique. Our plans are tailored to fit your specific needs.</p>
+            </div>
+            <!-- Expert Guidance -->
+            <div class="p-6 bg-white shadow-md rounded-md text-center">
+                <h3 class="text-2xl font-semibold text-green-600 mb-4">Expert Guidance</h3>
+                <p class="text-gray-600">With years of experience in nutrition and dietetics, you’ll receive the best advice and support.</p>
+            </div>
+            <!-- Holistic Care -->
+            <div class="p-6 bg-white shadow-md rounded-md text-center">
+                <h3 class="text-2xl font-semibold text-green-600 mb-4">Holistic Care</h3>
+                <p class="text-gray-600">We focus on the whole person, considering all aspects of health and lifestyle.</p>
+            </div>
+        </div>
+    </div>
+</section> 
+<section id="reviews">
+        <h1 class="m-9 p-5 justify-between text-center text-4xl font-bold text-green-700 ">Testimonials</h1>
+    <div class="flex flex-wrap justify-center">
+                            <div class="m-4 h-auto max-w-xs overflow-hidden bg-white border border-black-400 rounded-xl shadow-md transform transition-all duration-500 hover:shadow-lg hover:scale-105 relative group">
+                            <div class="absolute inset-0 bg-gradient-to-br from-gray-100 to-white opacity-0 transition-opacity duration-500 group-hover:opacity-30 blur-md"></div>
+                            <div class="p-6 relative z-10">
+                                <p class="text-xl font-semibold text-gray-800">Mahesh Gupta</p>
+                                <p class="mt-2 text-gray-600">"Thanks to Shrijweta, I finally understand how to nourish my body. The education and tools provided have empowered me to make better food choices."</p>
+                                <div class="flex items-center mt-4 text-gray-600">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current text-yellow-500">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path>
+                                    </svg>
+                                    <span class="ml-2">4.6 (12 reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class=" m-4 h-auto max-w-xs overflow-hidden bg-white border border-black-400 rounded-xl shadow-md transform transition-all duration-500 hover:shadow-lg hover:scale-105 relative group">
+                            <div class="absolute inset-0 bg-gradient-to-br from-gray-100 to-white opacity-0 transition-opacity duration-500 group-hover:opacity-30 blur-md">
+                            </div>
+                            <div class="p-6 relative z-10">
+                                <p class="text-xl font-semibold text-gray-800">Hirdiyansh</p>
+                                <p class="mt-2 text-gray-600">
+                                    "I was overwhelmed by conflicting diet advice until I met Shweta Their science-based approach helped me create sustainable habits. I feel more energetic and confident!"
+                                </p>
+                                <div class="flex items-center mt-4 text-gray-600">
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="w-6 h-6 fill-current text-yellow-500"
+                                >
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                    ></path>
+                                </svg>
+                                <span class="ml-2">4.5(10 reviews)</span>
+                                </div>
+                            </div>
+                            </div>
+                            <div  class=" m-4 h-auto max-w-xs overflow-hidden bg-white border border-black-400 rounded-xl shadow-md transform transition-all duration-500 hover:shadow-lg hover:scale-105 relative group">
+                                <div class="absolute inset-0 bg-gradient-to-br from-gray-100 to-white opacity-0 transition-opacity duration-500 group-hover:opacity-30 blur-md">
+                                </div>
+                                <div class="p-6 relative z-10">
+                                    <p class="text-xl font-semibold text-gray-800">Sneha Agrawal</p>
+                                    <p class="mt-2 text-gray-600">
+                                        "Working with Shrijweta has been a game-changer for my family. The meal planning tips and recipes are easy to follow, and we all enjoy eating healthier together!"
+                                         </p>
+                                    <div class="flex items-center mt-4 text-gray-600">
+                                    <svg
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-6 h-6 fill-current text-yellow-500"
+                                    >
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                        ></path>
+                                    </svg>
+                                    <span class="ml-2">4.4(10 reviews)</span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div  class=" m-4 h-auto max-w-xs overflow-hidden bg-white border border-black-400 rounded-xl shadow-md transform transition-all duration-500 hover:shadow-lg hover:scale-105 relative group">
+                                    <div class="absolute inset-0 bg-gradient-to-br from-gray-100 to-white opacity-0 transition-opacity duration-500 group-hover:opacity-30 blur-md">
+                                    </div>
+                                    <div class="p-6 relative z-10">
+                                        <p class="text-xl font-semibold text-gray-800">Preeti pundir</p>
+                                        <p class="mt-2 text-gray-600">
+                                            "Shweta is not just a dietitian; they're a partner in my health journey. Their encouragement and expertise helped me overcome my barriers to healthy eating. I’m so grateful!" 
+                                           </p>
+                                        <div class="flex items-center mt-4 text-gray-600">
+                                        <svg
+                                            viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="w-6 h-6 fill-current text-yellow-500"
+                                        >
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                            ></path>
+                                        </svg>
+                                        <span class="ml-2">4.5(10 reviews)</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    
+                    </div>
+</section>
+
+
+
+    <div class="justify-end left max-w-md mx-auto mt-20 p-8 bg-white rounded-lg shadow-md  text-center">
+    
+    <h1 class="text-2xl font-bold mb-6 text-gray-700">BMI Calculator</h1>
+
+    <div class="mb-4 text-left">
+      <label for="height" class="block text-sm font-medium text-gray-600">Height (cm):</label>
+      <input 
+        type="number" 
+        id="height" 
+        placeholder="Enter height in cm"
+        class="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-400">
+    </div>
+
+    <div class="mb-4 text-left">
+      <label for="weight" class="block text-sm font-medium text-gray-600">Weight (kg):</label>
+      <input 
+        type="number" 
+        id="weight" 
+        placeholder="Enter weight in kg"
+        class="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-400">
+    </div>
+
+    <button 
+      onclick="calculateBMI()" 
+      class="w-full bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600 transition duration-300">
+      Calculate
+    </button>
+
+    <div id="result" class="mt-6 text-lg font-semibold text-gray-700"></div>
+  </div> 
+
+
+  <section id="contact" class="bg-gray-100 py-16">
+    <h1 class="contact-title">Contact Us</h1>
+    <div class="contact-container">
+        <div class="contact-box">
+            <h3>Phone</h3>
+            <p>+919258184796</p>
+        </div>
+        <div class="contact-box">
+            <h3>Email</h3>
+            <p>Shrijweta.com</p>
+        </div>
+      
+        <div class="contact-box">
+            <h3>Working Hours</h3>
+            <p>Mon-Fri: 9am - 5pm</p>
+        </div>
+    </div>
+   </section> 
+   <div class="w-4/5 m-4 mx-auto">
+    <h1 class="text-4xl font-bold text-center text-gray-800 mb-4">Prices Starting @ INR 500/- Only </h1>
+   
+
+    <table class="w-full table-auto border-collapse border border-gray-300">
+        <thead>
+            <tr class="bg-green-500 text-white">
+                <th class="border border-gray-300 px-4 py-2">Fitness Package</th>
+                <th class="border border-gray-300 px-4 py-2">General Diet Consult</th>
+                <th class="border border-gray-300 px-4 py-2">One Month Plan</th>
+                <th class="border border-gray-300 px-4 py-2">Quarterly Plan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border border-gray-300 px-4 py-2">Duration</td>
+                <td class="border border-gray-300 px-4 py-2">One Time</td>
+                <td class="border border-gray-300 px-4 py-2">One Month</td>
+                <td class="border border-gray-300 px-4 py-2">Three Months</td>
+            </tr>
+            <tr class="bg-gray-50">
+                <td class="border border-gray-300 px-4 py-2">Plan Type</td>
+                <td class="border border-gray-300 px-4 py-2">Basic diet chart with options for each meal</td>
+                <td class="border border-gray-300 px-4 py-2">Customized daily plan given on a weekly basis</td>
+                <td class="border border-gray-300 px-4 py-2">Customized daily plan given on a weekly basis</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-300 px-4 py-2">Follow Ups (at clinic / on phone)</td>
+                <td class="border border-gray-300 px-4 py-2 text-red-500">&#10060;</td>
+                <td class="border border-gray-300 px-4 py-2">4 weekly</td>
+                <td class="border border-gray-300 px-4 py-2">12 weekly</td>
+            </tr>
+            <tr class="bg-gray-50">
+                <td class="border border-gray-300 px-4 py-2">Body Composition Analysis</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-300 px-4 py-2">Customized Meal Plan</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+            </tr>
+            <tr class="bg-gray-50">
+                <td class="border border-gray-300 px-4 py-2">WhatsApp Assistance</td>
+                <td class="border border-gray-300 px-4 py-2 text-red-500">&#10060;</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-300 px-4 py-2">Plan Upgrade</td>
+                <td class="border border-gray-300 px-4 py-2 text-red-500">&#10060;</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+                <td class="border border-gray-300 px-4 py-2 text-green-500">&#10004;</td>
+            </tr>
+            <tr class="bg-gray-50">
+                <td class="border border-gray-300 px-4 py-2">Online Cost</td>
+                <td class="border border-gray-300 px-4 py-2">₹500</td>
+                <td class="border border-gray-300 px-4 py-2">₹1500</td>
+                <td class="border border-gray-300 px-4 py-2">₹2500</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="border border-gray-300 px-4 py-2">
+                    <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded" onclick="payNow()">PayU Money</button>
+                </td>
+                <td class="border border-gray-300 px-4 py-2">
+                    <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded" onclick="payNow()">PayU Money</button>
+                </td>
+                <td class="border border-gray-300 px-4 py-2">
+                    <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded" onclick="payNow()">PayU Money</button>
+                </td>
+            </tr>
+         </tbody>
+        </table>
+    </div>
+
+
+
+  <footer class="bg-green-900 text-white py-10 relative">
+    <div class=" m-auto p-4 mx-auto flex flex-wrap justify-between items-start">
+        <div class="w-full md:w-1/2 mb-8">
+            <h1 class="text-3xl font-bold">Shrijweta</h1>
+            <p>Get healthy with Shrijweta</p>
+            <p class="mt-2"></p>
+            <div class="flex mt-4 space-x-4">
+                <a href="https://x.com/shrijweta?t=k59QgwBJxbN-x5Sns1lotA&s=09" class="block"><img src="images/x.png" alt="X" class="w-8 h-8"></a>
+                <a href="https://www.instagram.com/shrijwetadiet?igsh=c3Y3MjR1YzdiNmln" class="block"><img src="images/inst.png" alt="Instagram" class="w-8 h-8"></a>
+                <a href="https://www.linkedin.com/in/shweta-singhal-696256251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="block"><img src="images/li.png" alt="Linked in" class="w-8 h-8"></a>
+                <a href="https://www.facebook.com/share/9buSpUCcFSmFuXim/" class="block"><img src="images/fb.png" alt="Facebook" class="w-8 h-8"></a>
+                <a href="https://youtube.com/@shwetasinghal9297?si=X3ucjlBNSqIjPpXW" class="block"><img src="images/yt.png" alt="Youtube" class="w-8 h-8"></a>
+              
+                </div>
+        </div>
+
+        <div class="w-full md:w-1/4">
+            <ul class="space-y-2">
+                <li><a href="#home" class="text-white hover:underline">Healthy Recipes</a></li>
+                <li><a href="#about" class="text-white hover:underline">About</a></li>
+                <li><a href="#contact" class="text-white hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+   
+   
+  </footer>
+</div>
+  
+   
+</body>
+</html>
